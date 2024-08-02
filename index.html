@@ -167,7 +167,7 @@
 
         <div class="editable-style silex-id-1552772425150-3 text-element silex-component prevent-resizable hamburger-menu prevent-auto-z-index"><div class="silex-element-content normal">
 <!-- inspired by https://codepen.io/erikterwan/pen/EVzeRP -->
-<div class="hamburger-menu_1722607483268_805 closed">
+<div class="hamburger-menu_1722608672918_973 closed">
     <div class="hamburger-btn ">
       <span></span>
       <span></span>
@@ -180,7 +180,7 @@
             
                 <li><a href="index.html" class="page-link-active">Home</a></li>
             
-                <li><a href="cv.html" title="CV">CV</a></li>
+                <li><a href="cv.html" title="CV" class="">CV</a></li>
             
                 <li><a href="https://www.silex.me/">Powered by Silex</a></li>
             
@@ -194,13 +194,13 @@
   var isOpen = false;
   function close() {
     isOpen = false;
-    document.querySelector('.hamburger-menu_1722607483268_805').classList.remove('open');
-    document.querySelector('.hamburger-menu_1722607483268_805').classList.add('closed');
+    document.querySelector('.hamburger-menu_1722608672918_973').classList.remove('open');
+    document.querySelector('.hamburger-menu_1722608672918_973').classList.add('closed');
   }
   function open() {
     isOpen = true;
-    document.querySelector('.hamburger-menu_1722607483268_805').classList.add('open');
-    document.querySelector('.hamburger-menu_1722607483268_805').classList.remove('closed');
+    document.querySelector('.hamburger-menu_1722608672918_973').classList.add('open');
+    document.querySelector('.hamburger-menu_1722608672918_973').classList.remove('closed');
   }
   function toggle() {
     if(isOpen) close();
@@ -210,7 +210,7 @@
     close();
     move();
   }
-  var silexElement = document.querySelector('.hamburger-menu_1722607483268_805').closest('.editable-style');
+  var silexElement = document.querySelector('.hamburger-menu_1722608672918_973').closest('.editable-style');
   function move() {
     var data = window.silex
     var rect = silexElement.getBoundingClientRect();
@@ -218,10 +218,10 @@
       top: rect.top + data.scrollTop,
       left: rect.left + data.scrollLeft,
     };
-    var container = document.querySelector('.hamburger-menu_1722607483268_805 .nav-container');
+    var container = document.querySelector('.hamburger-menu_1722608672918_973 .nav-container');
     container.style.transform = 'translate(' + (data.scrollLeft - (offset.left/data.scale)) + 'px, ' + (data.scrollTop - (offset.top/data.scale)) + 'px)';
   }
-  document.querySelector('.hamburger-menu_1722607483268_805 .hamburger-btn').addEventListener('click', function() { toggle(); });
+  document.querySelector('.hamburger-menu_1722608672918_973 .hamburger-btn').addEventListener('click', function() { toggle(); });
   document.addEventListener('resize', scrollOrResize);
   document.addEventListener('scroll', scrollOrResize);
   scrollOrResize()
@@ -247,6 +247,16 @@
                 <div class="silex-element-content normal">
                     /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                 </div>
+            </div><div class="editable-style text-element product-details silex-id-1483131239727-18">
+                <div class="silex-element-content normal">
+                    <h3>HMS Project</h3>
+                    
+                        
+                    
+                    
+                        <p>The Project me and a team are doing for a university Module.</p><p><a href="index.html" class="page-link-active"><b>MORE</b></a></p>
+                    
+                </div>
             </div><div class="editable-style text-element product-details silex-id-1436036523626-21">
                 <div class="silex-element-content normal">
                     <h3>Darkest Timeline</h3>
@@ -255,30 +265,6 @@
                     
                     
                         <p>A personal project I've been working on in my free time. It's a strategy game loosely inspired by the Starcraft 2 Arcade Mode "Direct Strike"<br></p><p><a href="https://github.com/Crowthecruel2/Darkest-Timeline" title="Darkest Timeline Github"><b>MORE</b></a></p>
-                    
-                </div>
-            </div><div class="editable-style image-element silex-id-1483131239727-16">
-                <img src="assets/pic08.jpg" class="" alt="an illustrative image"></div></div>
-    </section><section class="container-element editable-style section-element silex-id-1483131239726-14 website-min-width prevent-resizable page-home paged-element hide-on-mobile paged-element-visible">
-
-        <div class="editable-style silex-element-content website-width container-element silex-id-1483131239727-15">
-            
-            
-
-            
-        <div class="editable-style text-element full-width grey-text silex-id-1483131239727-17 hide-on-mobile">
-                <div class="silex-element-content normal">
-                    /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-                </div>
-            </div><div class="editable-style image-element silex-id-1483131242515-21">
-                <img src="assets/pic09.jpg" class="" alt="an illustrative image"></div><div class="editable-style text-element product-details silex-id-1483131239727-18">
-                <div class="silex-element-content normal">
-                    <h3>HMS Project</h3>
-                    
-                        
-                    
-                    
-                        <p>The Project me and a team are doing for a university Module.</p><p><a href="index.html" class="page-link-active"><b>MORE</b></a></p>
                     
                 </div>
             </div></div>
@@ -303,5 +289,5 @@
                         <p>This is a link to my actual CV</p><p><a href="cv.html" class=""><b>MORE</b></a></p>
                     
                 </div>
-            </div><div class="editable-style image-element silex-id-1436036524028-25"><img src="assets/WhatsApp%20Image%202024-08-02%20at%2014.05.23.jpeg"></div></div>
+            </div></div>
     </section><section class="editable-style section-element silex-id-1722604554032-2 page-home paged-element paged-element-visible"><div class="editable-style container-element silex-id-1722604554032-3 silex-element-content website-width prevent-draggable"><div class="editable-style text-element silex-id-1722605246928-0"><div class="silex-element-content normal"><h1>Contact Info:<br></h1></div></div><div class="editable-style text-element silex-id-1722604560379-4"><div class="silex-element-content normal"><p>Cell Number:</p><p>&nbsp;066 102 4086</p></div></div><div class="editable-style text-element silex-id-1722604625900-7"><div class="silex-element-content normal"><p>GitHub:</p><p><a href="https://github.com/Crowthecruel2" title="Crowthecruel2">Crowthecruel2</a></p></div></div><div class="editable-style text-element silex-id-1722604588113-5"><div class="silex-element-content normal"><p>email:</p><p>&nbsp;fanie3vvuuren@gmail.com</p></div></div></div></section></body></html>
